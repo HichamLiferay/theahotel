@@ -4,18 +4,24 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
     imports: [MatBadgeModule,
         MatButtonModule,
         MatToolbarModule,
         MatIconModule,
-        MatSidenavModule],
+        MatSidenavModule,
+        MatListModule,
+        MatTabsModule],
     exports: [MatBadgeModule,
         MatButtonModule,
         MatToolbarModule,
         MatIconModule,
-        MatSidenavModule
+        MatSidenavModule,
+        MatListModule,
+        MatTabsModule
     ]
 })
 
